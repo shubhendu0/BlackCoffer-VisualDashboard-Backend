@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://visualdashboard-frontend.onrender.com" ],
+    origin: ["https://visualdashboard-frontend.onrender.com" ],
     credentials: true,
   })
 )
